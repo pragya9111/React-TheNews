@@ -1,0 +1,44 @@
+.newscontainer{
+    width: 65vw;
+    height: 91vh;
+    /* background-color: red; */
+}
+.newsholder{
+    width: inherit;
+    min-height: 15vh;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(47, 47, 47);
+}
+.txt{
+    width:42vw;
+    height: inherit;
+    /* background-color: yellowgreen; */
+}
+.txt h4{
+    font-size: 2.2vmin;
+}
+.txt p{
+    margin: .8vmin 0;
+}
+.img{
+    width:17vw;
+    min-height: inherit;
+    /* background-color: orange; */
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+}
+.load{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loading{
+    border-radius: 50%;
+}

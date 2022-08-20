@@ -1,0 +1,35 @@
+nav{
+    width: 100vw;
+    height: 9vh;
+    background-color: rgb(193, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.left{
+    width: 35vw;
+    height: inherit;
+    /* background-color: rgb(212, 215, 218); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right{
+    width: 35vw;
+    height: inherit;
+    /* background-color: rgb(200, 206, 211); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav h1{
+    font-size: 5vmin;
+    font-family: roby soho;
+    color: rgb(245, 245, 245);
+    letter-spacing: .3vmin;
+}
+nav i{
+    font-size: 3vmin;
+    color: white;
+    text-decoration: none;
+}

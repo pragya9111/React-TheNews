@@ -1,0 +1,39 @@
+.container {
+    min-height: 91vh;
+    width: inherit;
+    background-color: whitesmoke;
+    display: flex;
+    font-family: gilroy;
+    color: black;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.right1 {
+    width: 27vw;
+    min-height:91vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vmax;
+    margin-left: 3vmax;
+    margin-top: 1vmax;
+    color: rgb(47, 47, 47);
+}
+.heading {
+    width: inherit;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: gilroy;
+    font-weight: 200;
+}
+.holdnews {
+    width: inherit;
+    /* min-height: 80vh; */
+    /* background-color: yellow; */
+    padding: 1vmax;
+    border-radius: 1vmax;
+}
+.topnews {
+    /* background-color: aquamarine; */
+    margin-bottom: 1vmax;
+}
